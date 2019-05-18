@@ -1,7 +1,7 @@
 # match
 같은 그림 맞추기 게임
 
-# 개발방식
+### 개발방식
 1. 우선 모놀리식으로 개발
     - RestAPI Node.js로 구현
     - Vue.js 프론트엔드 구현
@@ -9,7 +9,7 @@
 1. 마이크로서비스로 나누기
 1. AWS Lambda로 이관
 
-# 고려사항
+### 고려사항
 * AWS Lambda + Node.js를 이용한 backend API 구성
     * 원래는 EC2와 Docker를 이용하려고 생각했지만 EC2 이용시 아무런 요청을 하지 않아도 꾸준히 높은 비용이 발생한다는 단점이 있어서 아무래도 소규모 개인 프로젝트이다보니 핵심기능 위주로 함수 호출시에만 비용이 발생하는 Lambda를 선택하게 되었다.
 * Vue.js + Bootstrap으로 reactive frontend 구성
