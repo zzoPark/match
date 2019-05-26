@@ -19,4 +19,4 @@
 * 서버리스 아키텍쳐는 처음 접하는 거다 보니 설계부터가 어디서 시작해야할지 막막하다. 방법론과 어떻게들 구현했는지가 궁금한데 도서관에 자료가 없어서 아쉽다. 모놀리식 앱을 설계 후 기능 단위로 쪼개면 되는 걸까?
 
 ### Flowchart
-![Flowchart](/docs/flowchart.png)
+![Flowchart](/docs/flowchart.jpg)
